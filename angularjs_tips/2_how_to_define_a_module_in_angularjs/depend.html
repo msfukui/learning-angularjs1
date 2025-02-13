@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="myApp">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AngularJS TIPS</title>
+</head>
+<body ng-controller="myController2">
+<div>{{ msg }}</div>
+<script src="../js/angularjs/1.4.8/angular.min.js"></script>
+<script src="../js/angularjs/1.4.8/angular-cookies.min.js"></script>
+<script src="../js/angularjs/1.4.8/angular-sanitize.min.js"></script>
+<script>
+    angular.module('mySub', ['ngCookies', 'ngSanitize'])
+        .controller('myController2', function ($scope) {
+            $scope.msg = 'Thank you, AngularJS!';
+        });
+    angular.module('myApp', ['mySub'])
+        .controller('myController', function ($scope) {
+            $scope.msg = 'Hello, AngularJS!';
+        });
+</script>
+</body>
+</html>
