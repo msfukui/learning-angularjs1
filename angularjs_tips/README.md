@@ -11,3 +11,6 @@ https://www.buildinsider.net/web/angularjstips/date/
 
 * AngularJSでモジュールを定義するには？  
   https://www.buildinsider.net/web/angularjstips/0002/
+
+* AngularJSでコントローラを定義するには？  
+  https://www.buildinsider.net/web/angularjstips/0003/ 
