@@ -13,4 +13,7 @@ https://www.buildinsider.net/web/angularjstips/date/
   https://www.buildinsider.net/web/angularjstips/0002/
 
 * AngularJSでコントローラを定義するには？  
-  https://www.buildinsider.net/web/angularjstips/0003/ 
+  https://www.buildinsider.net/web/angularjstips/0003/
+
+* AngularJSの依存性注入を利用するには？  
+  https://www.buildinsider.net/web/angularjstips/0004/

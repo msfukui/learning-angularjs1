@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang=ja ng-app="myApp">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AngularJS TIPS</title>
+</head>
+<body>
+
+<div ng-controller="myController">
+    {{msg}}
+</div>
+
+<script src="../js/angularjs/1.4.8/angular.min.js"></script>
+<script>
+
+    angular.module('myApp', []);
+    My = function (s) {
+        s.msg = 'Hello, AngularJS!';
+    };
+    My.$inject = ['$scope'];
+    angular.module('myApp').controller('myController', My);
+
+</script>
+</body>
+</html>
